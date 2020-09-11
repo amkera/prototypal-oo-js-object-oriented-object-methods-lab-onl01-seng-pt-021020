@@ -19,7 +19,7 @@ function BoardMember(name homeState, training) {
     return "ou will see great things from Scuber."
   }
   User.prototype.sayHi = function(){
-    return "I like to help people."
+    return "Hi, my name is ${this.name}. I am from <homestate>, and I was trained in <training>."
   }
   
 }
