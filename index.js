@@ -14,4 +14,12 @@ function BoardMember(name homeState, training) {
   User.prototype.doCharity = function(){
     return "I like to help people."
   }
+  
+  User.prototype.doCharity = function(){
+    return "I like to help people."
+  }
+  User.prototype.doCharity = function(){
+    return "I like to help people."
+  }
+  
 }
