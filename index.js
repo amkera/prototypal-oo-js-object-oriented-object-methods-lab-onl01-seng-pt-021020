@@ -12,6 +12,6 @@ function BoardMember(name homeState, training) {
   }
   
   User.prototype.doCharity = function(){
-    return "No, I must disagree"
+    return "I like to help people."
   }
 }
