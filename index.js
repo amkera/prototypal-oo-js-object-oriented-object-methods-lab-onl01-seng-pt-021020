@@ -3,9 +3,7 @@ function BoardMember(name homeState, training) {
   this.email = email; 
   this.training = training; 
   
-  this.veto = function(){
-    
-    
-    
+  User.prototype.veto = function(){
+    return "No, I must disagree"
   }
 }
